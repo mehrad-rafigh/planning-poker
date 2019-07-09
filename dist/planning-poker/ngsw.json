@@ -1,0 +1,78 @@
+{
+  "configVersion": 1,
+  "timestamp": 1562689518784,
+  "index": "https://mehrad-rafigh.github.io/planning-poker/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "urls": [
+        "https://mehrad-rafigh.github.io/planning-poker/favicon.ico",
+        "https://mehrad-rafigh.github.io/planning-poker/index.html",
+        "https://mehrad-rafigh.github.io/planning-poker/main-es2015.83b4e1e9fe0b4c0a77dc.js",
+        "https://mehrad-rafigh.github.io/planning-poker/main-es5.0ce5de5940b6cdb83a33.js",
+        "https://mehrad-rafigh.github.io/planning-poker/polyfills-es2015.bfe445a5fe4a078e3bd7.js",
+        "https://mehrad-rafigh.github.io/planning-poker/polyfills-es5.2219c87348e60efc0076.js",
+        "https://mehrad-rafigh.github.io/planning-poker/runtime-es2015.b62bcaae336fb073419b.js",
+        "https://mehrad-rafigh.github.io/planning-poker/runtime-es5.392ecc8f64bfdaf0910f.js",
+        "https://mehrad-rafigh.github.io/planning-poker/styles.851994fd09c350a36f16.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "urls": [
+        "https://mehrad-rafigh.github.io/planning-poker/assets/icons/icon-128x128.png",
+        "https://mehrad-rafigh.github.io/planning-poker/assets/icons/icon-144x144.png",
+        "https://mehrad-rafigh.github.io/planning-poker/assets/icons/icon-152x152.png",
+        "https://mehrad-rafigh.github.io/planning-poker/assets/icons/icon-192x192.png",
+        "https://mehrad-rafigh.github.io/planning-poker/assets/icons/icon-384x384.png",
+        "https://mehrad-rafigh.github.io/planning-poker/assets/icons/icon-512x512.png",
+        "https://mehrad-rafigh.github.io/planning-poker/assets/icons/icon-72x72.png",
+        "https://mehrad-rafigh.github.io/planning-poker/assets/icons/icon-96x96.png"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "https://mehrad-rafigh.github.io/planning-poker/assets/icons/icon-128x128.png": "40343d5fc231883287a339ac3a05ec7b6188837c",
+    "https://mehrad-rafigh.github.io/planning-poker/assets/icons/icon-144x144.png": "00bf64434e72a248c348c5eace1754aa3c0f5200",
+    "https://mehrad-rafigh.github.io/planning-poker/assets/icons/icon-152x152.png": "9729d6ce9d8f85a08e0451df52f36fc2de9983f5",
+    "https://mehrad-rafigh.github.io/planning-poker/assets/icons/icon-192x192.png": "d4e2116da2fe9af95dced24037ce3fc6582170de",
+    "https://mehrad-rafigh.github.io/planning-poker/assets/icons/icon-384x384.png": "a63dc23bbbe23b1b9ae373a04191d4e859727c89",
+    "https://mehrad-rafigh.github.io/planning-poker/assets/icons/icon-512x512.png": "2184c1d4d600dc923d831ec8cce09f68e7df08cf",
+    "https://mehrad-rafigh.github.io/planning-poker/assets/icons/icon-72x72.png": "6b4d26be3df5ef4a3250a93cdaa90f47a5e19cd0",
+    "https://mehrad-rafigh.github.io/planning-poker/assets/icons/icon-96x96.png": "a0d0016566710d1b37c77ed9a5617ea9a864b657",
+    "https://mehrad-rafigh.github.io/planning-poker/favicon.ico": "84161b857f5c547e3699ddfbffc6d8d737542e01",
+    "https://mehrad-rafigh.github.io/planning-poker/index.html": "694520abb5df4544df231d84cfa21612c6b2367a",
+    "https://mehrad-rafigh.github.io/planning-poker/main-es2015.83b4e1e9fe0b4c0a77dc.js": "1427c694164c549cbc0cf44b45371934206c30ca",
+    "https://mehrad-rafigh.github.io/planning-poker/main-es5.0ce5de5940b6cdb83a33.js": "c34280079d978048f04e65dab9766dd75d19c4f9",
+    "https://mehrad-rafigh.github.io/planning-poker/polyfills-es2015.bfe445a5fe4a078e3bd7.js": "fa3294dc18f74d99ffb7812c33dbbdb3daf098ca",
+    "https://mehrad-rafigh.github.io/planning-poker/polyfills-es5.2219c87348e60efc0076.js": "6c9688c6586bfcf669879655ba5874ef1d2b4bcf",
+    "https://mehrad-rafigh.github.io/planning-poker/runtime-es2015.b62bcaae336fb073419b.js": "b62956c2192bfe5516d6374e753773901ed50ec5",
+    "https://mehrad-rafigh.github.io/planning-poker/runtime-es5.392ecc8f64bfdaf0910f.js": "b62956c2192bfe5516d6374e753773901ed50ec5",
+    "https://mehrad-rafigh.github.io/planning-poker/styles.851994fd09c350a36f16.css": "2ae2c03f151686968d54230bf2357567757064e4"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ]
+}
