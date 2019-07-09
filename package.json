@@ -7,6 +7,7 @@
     "build": "ng build",
     "build:prod": "ng build --configuration production --subresource-integrity",
     "build:prod:gh": "ng build --configuration production --subresource-integrity --base-href \"https://mehrad-rafigh.github.io/planning-poker/\"",
+    "release:gh": "npx angular-cli-ghpage",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"
@@ -50,6 +51,7 @@
     "@types/jasmine": "~3.3.8",
     "@types/jasminewd2": "~2.0.3",
     "@types/node": "~8.9.4",
+    "angular-cli-ghpages": "0.5.3",
     "codelyzer": "^5.0.0",
     "commitizen": "3.1.1",
     "jasmine-core": "~3.4.0",
