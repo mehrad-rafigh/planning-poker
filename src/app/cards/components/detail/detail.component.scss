@@ -1,0 +1,28 @@
+@import "../../../../mixins";
+
+app-card ::ng-deep div {
+
+  margin: 0 auto;
+
+
+
+  @include mobile() {
+    width: 290px !important;
+    height: 450px !important;
+    margin-top: 32px;
+  }
+
+  @include tablet() {
+    width: 350px !important;
+    height: 500px !important;
+    margin-top: 48px;
+  }
+
+  @include above-tablet() {
+    width: 400px !important;
+    height: 550px !important;
+    margin-top: 72px;
+  }
+
+
+}

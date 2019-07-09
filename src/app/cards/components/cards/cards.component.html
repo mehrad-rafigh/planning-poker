@@ -1,0 +1,9 @@
+<app-toolbar></app-toolbar>
+<div class="cards-container">
+  <app-card
+    *ngFor="let no of range"
+    [value]="no"
+    [cardColor]="setCardColors()"
+    (clickEvent)="showCardInDetail($event)"
+  ></app-card>
+</div>

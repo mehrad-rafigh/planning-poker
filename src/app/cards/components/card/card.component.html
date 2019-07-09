@@ -1,0 +1,10 @@
+<div
+  class="card"
+  [ngStyle]="{ 'background-color': cardColor.backgroundColor }"
+  [ngClass]="setFontColor()"
+  (click)="handleClick()"
+>
+  <span *ngIf="!detailMode" class="top-right quarter-h">{{ value }}</span>
+  <span *ngIf="detailMode" class="half-h" [ngClass]="setDetailMode()">{{ value }}</span>
+  <span *ngIf="!detailMode" class="bottom-left quarter-h">{{ value }}</span>
+</div>
