@@ -26,7 +26,7 @@ export class CardsComponent implements OnInit {
     "34",
     "55",
     "89",
-    "100",
+    "144",
     "?",
     "\u2615",
     "🃏"
