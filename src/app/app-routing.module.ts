@@ -13,6 +13,13 @@ const routes: Routes = [
     component: DetailComponent
   },
   {
+    path: "settings",
+    loadChildren: () =>
+      import("../../projects/settings/src/lib/settings.module").then(
+        module => module.SettingsModule
+      )
+  },
+  {
     path: "**",
     component: CardsComponent
   }
