@@ -39,7 +39,10 @@ export class CardsComponent implements OnInit {
     this.router.navigate(["detail"], {
       state: {
         value: $event.value,
-        cardColor: { backgroundColor: $event.cardColor, fontColor: "white" }
+        card: {
+          backgroundColor: $event.card.backgroundColor,
+          fontColor: "white"
+        }
       }
     });
   }
