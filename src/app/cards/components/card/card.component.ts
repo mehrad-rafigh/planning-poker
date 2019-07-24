@@ -25,7 +25,7 @@ export class CardComponent implements OnInit {
   handleClick(): void {
     this.clickEvent.emit({
       value: this.value,
-      cardColor: {
+      card: {
         backgroundColor: this.cardColor.backgroundColor,
         fontColor: this.cardColor.fontColor
       }
