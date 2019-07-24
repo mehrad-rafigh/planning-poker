@@ -13,8 +13,8 @@ import { Router } from "@angular/router";
   changeDetection: ChangeDetectionStrategy.OnPush
 })
 export class DetailComponent implements OnInit {
-  @Input() value: number;
-  @Input() cardColor: string;
+  @Input() value: string;
+  @Input() card: { backgroundColor: string; fontColor: string };
   constructor(private router: Router) {
     const state = this.router.getCurrentNavigation().extras.state;
 
@@ -22,7 +22,7 @@ export class DetailComponent implements OnInit {
       this.router.navigate(["/"]);
     }
 
-    this.cardColor = state.cardColor;
+    this.card = state.card;
     this.value = state.value;
   }
 
