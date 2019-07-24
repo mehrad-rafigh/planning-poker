@@ -33,15 +33,18 @@ export class CardsComponent implements OnInit {
   ];
   constructor(private router: Router) {}
 
-  ngOnInit() {}
+  ngOnInit(): void {}
 
-  showCardInDetail($event) {
+  showCardInDetail($event): void {
     this.router.navigate(["detail"], {
-      state: { value: $event.value, cardColor: $event.cardColor }
+      state: {
+        value: $event.value,
+        cardColor: { backgroundColor: $event.cardColor, fontColor: "white" }
+      }
     });
   }
 
-  setCardColors() {
+  setCardColors(): { backgroundColor: string; fontColor: string } {
     const backgroundColor = this.calculateRandomRGBColor();
     const fontColor = this.shouldFontBeWhite(backgroundColor)
       ? "white"
@@ -50,14 +53,14 @@ export class CardsComponent implements OnInit {
     return { backgroundColor, fontColor };
   }
 
-  private calculateRandomRGBColor() {
+  private calculateRandomRGBColor(): string {
     const red = Math.ceil(Math.random() * 255);
     const green = Math.ceil(Math.random() * 255);
     const blue = Math.ceil(Math.random() * 255);
     return `rgb(${red},${green},${blue})`;
   }
 
-  private shouldFontBeWhite(backgroundColor: string) {
+  private shouldFontBeWhite(backgroundColor: string): boolean {
     const sp = backgroundColor
       .replace("rgb", "")
       .replace("(", "")

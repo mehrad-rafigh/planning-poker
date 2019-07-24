@@ -14,15 +14,15 @@ import {
   changeDetection: ChangeDetectionStrategy.OnPush
 })
 export class CardComponent implements OnInit {
-  @Input() value: number;
+  @Input() value: string;
   @Input() cardColor: { backgroundColor: string; fontColor: string };
   @Input() detailMode = false;
   @Output() clickEvent = new EventEmitter<any>();
   constructor() {}
 
-  ngOnInit() {}
+  ngOnInit(): void {}
 
-  handleClick() {
+  handleClick(): void {
     this.clickEvent.emit({
       value: this.value,
       cardColor: {
@@ -32,13 +32,13 @@ export class CardComponent implements OnInit {
     });
   }
 
-  setDetailMode() {
+  setDetailMode(): string {
     if (this.detailMode) {
       return "detail-mode";
     }
   }
 
-  setFontColor() {
+  setFontColor(): string {
     if (this.cardColor.fontColor === "white") {
       return "font-white";
     }
