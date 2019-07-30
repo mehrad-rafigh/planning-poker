@@ -6,7 +6,7 @@
     "start": "ng serve",
     "build": "ng build",
     "build:prod": "ng build --configuration production --subresource-integrity",
-    "build:prod:gh": "ng build --configuration production --subresource-integrity --output-path docs --base-href \"https://mehrad-rafigh.github.io/planning-poker/\" && cp docs/index.html docs/404.html ",
+    "build:prod:gh": "ng build --configuration production --subresource-integrity --output-path docs --base-href=/planning-poker/ && cp docs/index.html docs/404.html ",
     "format:write": "prettier --write \"{src,e2e}/**/*.{js,ts,scss,html}\"",
     "test": "ng test",
     "lint": "ng lint",

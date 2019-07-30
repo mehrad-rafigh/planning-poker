@@ -1,22 +1,22 @@
 {
   "configVersion": 1,
-  "timestamp": 1564432056819,
-  "index": "https://mehrad-rafigh.github.io/planning-poker/index.html",
+  "timestamp": 1564447146259,
+  "index": "/planning-poker/index.html",
   "assetGroups": [
     {
       "name": "app",
       "installMode": "prefetch",
       "updateMode": "prefetch",
       "urls": [
-        "https://mehrad-rafigh.github.io/planning-poker/favicon.ico",
-        "https://mehrad-rafigh.github.io/planning-poker/index.html",
-        "https://mehrad-rafigh.github.io/planning-poker/main-es2015.0945c78b5f1f152f8462.js",
-        "https://mehrad-rafigh.github.io/planning-poker/main-es5.536d7f8c0284931e0ccd.js",
-        "https://mehrad-rafigh.github.io/planning-poker/polyfills-es2015.7c426171b1d0862fb604.js",
-        "https://mehrad-rafigh.github.io/planning-poker/polyfills-es5.36b117905f4c27348d07.js",
-        "https://mehrad-rafigh.github.io/planning-poker/runtime-es2015.b62bcaae336fb073419b.js",
-        "https://mehrad-rafigh.github.io/planning-poker/runtime-es5.392ecc8f64bfdaf0910f.js",
-        "https://mehrad-rafigh.github.io/planning-poker/styles.8a160c0fd7d8ca974372.css"
+        "/planning-poker/favicon.ico",
+        "/planning-poker/index.html",
+        "/planning-poker/main-es2015.0945c78b5f1f152f8462.js",
+        "/planning-poker/main-es5.536d7f8c0284931e0ccd.js",
+        "/planning-poker/polyfills-es2015.7c426171b1d0862fb604.js",
+        "/planning-poker/polyfills-es5.36b117905f4c27348d07.js",
+        "/planning-poker/runtime-es2015.b62bcaae336fb073419b.js",
+        "/planning-poker/runtime-es5.392ecc8f64bfdaf0910f.js",
+        "/planning-poker/styles.8a160c0fd7d8ca974372.css"
       ],
       "patterns": []
     },
@@ -25,37 +25,37 @@
       "installMode": "lazy",
       "updateMode": "prefetch",
       "urls": [
-        "https://mehrad-rafigh.github.io/planning-poker/assets/icons/icon-128x128.png",
-        "https://mehrad-rafigh.github.io/planning-poker/assets/icons/icon-144x144.png",
-        "https://mehrad-rafigh.github.io/planning-poker/assets/icons/icon-152x152.png",
-        "https://mehrad-rafigh.github.io/planning-poker/assets/icons/icon-192x192.png",
-        "https://mehrad-rafigh.github.io/planning-poker/assets/icons/icon-384x384.png",
-        "https://mehrad-rafigh.github.io/planning-poker/assets/icons/icon-512x512.png",
-        "https://mehrad-rafigh.github.io/planning-poker/assets/icons/icon-72x72.png",
-        "https://mehrad-rafigh.github.io/planning-poker/assets/icons/icon-96x96.png"
+        "/planning-poker/assets/icons/icon-128x128.png",
+        "/planning-poker/assets/icons/icon-144x144.png",
+        "/planning-poker/assets/icons/icon-152x152.png",
+        "/planning-poker/assets/icons/icon-192x192.png",
+        "/planning-poker/assets/icons/icon-384x384.png",
+        "/planning-poker/assets/icons/icon-512x512.png",
+        "/planning-poker/assets/icons/icon-72x72.png",
+        "/planning-poker/assets/icons/icon-96x96.png"
       ],
       "patterns": []
     }
   ],
   "dataGroups": [],
   "hashTable": {
-    "https://mehrad-rafigh.github.io/planning-poker/assets/icons/icon-128x128.png": "40343d5fc231883287a339ac3a05ec7b6188837c",
-    "https://mehrad-rafigh.github.io/planning-poker/assets/icons/icon-144x144.png": "00bf64434e72a248c348c5eace1754aa3c0f5200",
-    "https://mehrad-rafigh.github.io/planning-poker/assets/icons/icon-152x152.png": "9729d6ce9d8f85a08e0451df52f36fc2de9983f5",
-    "https://mehrad-rafigh.github.io/planning-poker/assets/icons/icon-192x192.png": "d4e2116da2fe9af95dced24037ce3fc6582170de",
-    "https://mehrad-rafigh.github.io/planning-poker/assets/icons/icon-384x384.png": "a63dc23bbbe23b1b9ae373a04191d4e859727c89",
-    "https://mehrad-rafigh.github.io/planning-poker/assets/icons/icon-512x512.png": "2184c1d4d600dc923d831ec8cce09f68e7df08cf",
-    "https://mehrad-rafigh.github.io/planning-poker/assets/icons/icon-72x72.png": "6b4d26be3df5ef4a3250a93cdaa90f47a5e19cd0",
-    "https://mehrad-rafigh.github.io/planning-poker/assets/icons/icon-96x96.png": "a0d0016566710d1b37c77ed9a5617ea9a864b657",
-    "https://mehrad-rafigh.github.io/planning-poker/favicon.ico": "84161b857f5c547e3699ddfbffc6d8d737542e01",
-    "https://mehrad-rafigh.github.io/planning-poker/index.html": "7710a8e895a2919bcd3f9c70acb696eb4b1d6289",
-    "https://mehrad-rafigh.github.io/planning-poker/main-es2015.0945c78b5f1f152f8462.js": "7794affae2f8f8c645bda310946aea39fc2d010a",
-    "https://mehrad-rafigh.github.io/planning-poker/main-es5.536d7f8c0284931e0ccd.js": "3bd6eecf3d063ad492cc36bdce0955aeca5c4e53",
-    "https://mehrad-rafigh.github.io/planning-poker/polyfills-es2015.7c426171b1d0862fb604.js": "058203dab4ba87056d6976029ba60fa42e6f75b9",
-    "https://mehrad-rafigh.github.io/planning-poker/polyfills-es5.36b117905f4c27348d07.js": "6c9688c6586bfcf669879655ba5874ef1d2b4bcf",
-    "https://mehrad-rafigh.github.io/planning-poker/runtime-es2015.b62bcaae336fb073419b.js": "b62956c2192bfe5516d6374e753773901ed50ec5",
-    "https://mehrad-rafigh.github.io/planning-poker/runtime-es5.392ecc8f64bfdaf0910f.js": "b62956c2192bfe5516d6374e753773901ed50ec5",
-    "https://mehrad-rafigh.github.io/planning-poker/styles.8a160c0fd7d8ca974372.css": "c7b3de959bdf69554be48fbaed2fc1bf478acbcd"
+    "/planning-poker/assets/icons/icon-128x128.png": "40343d5fc231883287a339ac3a05ec7b6188837c",
+    "/planning-poker/assets/icons/icon-144x144.png": "00bf64434e72a248c348c5eace1754aa3c0f5200",
+    "/planning-poker/assets/icons/icon-152x152.png": "9729d6ce9d8f85a08e0451df52f36fc2de9983f5",
+    "/planning-poker/assets/icons/icon-192x192.png": "d4e2116da2fe9af95dced24037ce3fc6582170de",
+    "/planning-poker/assets/icons/icon-384x384.png": "a63dc23bbbe23b1b9ae373a04191d4e859727c89",
+    "/planning-poker/assets/icons/icon-512x512.png": "2184c1d4d600dc923d831ec8cce09f68e7df08cf",
+    "/planning-poker/assets/icons/icon-72x72.png": "6b4d26be3df5ef4a3250a93cdaa90f47a5e19cd0",
+    "/planning-poker/assets/icons/icon-96x96.png": "a0d0016566710d1b37c77ed9a5617ea9a864b657",
+    "/planning-poker/favicon.ico": "84161b857f5c547e3699ddfbffc6d8d737542e01",
+    "/planning-poker/index.html": "917e74bc89a19a303a1b829409ee0fa646817d61",
+    "/planning-poker/main-es2015.0945c78b5f1f152f8462.js": "7794affae2f8f8c645bda310946aea39fc2d010a",
+    "/planning-poker/main-es5.536d7f8c0284931e0ccd.js": "3bd6eecf3d063ad492cc36bdce0955aeca5c4e53",
+    "/planning-poker/polyfills-es2015.7c426171b1d0862fb604.js": "058203dab4ba87056d6976029ba60fa42e6f75b9",
+    "/planning-poker/polyfills-es5.36b117905f4c27348d07.js": "6c9688c6586bfcf669879655ba5874ef1d2b4bcf",
+    "/planning-poker/runtime-es2015.b62bcaae336fb073419b.js": "b62956c2192bfe5516d6374e753773901ed50ec5",
+    "/planning-poker/runtime-es5.392ecc8f64bfdaf0910f.js": "b62956c2192bfe5516d6374e753773901ed50ec5",
+    "/planning-poker/styles.8a160c0fd7d8ca974372.css": "c7b3de959bdf69554be48fbaed2fc1bf478acbcd"
   },
   "navigationUrls": [
     {
