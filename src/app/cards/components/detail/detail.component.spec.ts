@@ -29,7 +29,10 @@ describe("DetailComponent", () => {
               return {
                 extras: {
                   state: {
-                    card: { backgroundColor: "rgb(100,100,100)", fontColor: "white" },
+                    card: {
+                      backgroundColor: "rgb(100,100,100)",
+                      fontColor: "white"
+                    },
                     value: ""
                   }
                 }
