@@ -1,0 +1,52 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CardComponent should match the snapshot 1`] = `
+<app-card
+  cardColor={[Function Object]}
+  clickEvent={[Function EventEmitter]}
+  detailMode="false"
+  value={[Function String]}
+>
+  <div
+    class="card font-white"
+    style="background-color: rgb(100, 100, 100);"
+  >
+    
+    <span
+      class="top-right quarter-h"
+    >
+      0.5
+    </span>
+    
+    
+    <span
+      class="bottom-left quarter-h"
+    >
+      0.5
+    </span>
+  </div>
+</app-card>
+`;
+
+exports[`CardComponent should render value in center when detail mode is on 1`] = `
+<app-card
+  cardColor={[Function Object]}
+  clickEvent={[Function EventEmitter]}
+  detailMode={[Function Boolean]}
+  value={[Function String]}
+>
+  <div
+    class="card font-white"
+    style="background-color: rgb(100, 100, 100);"
+  >
+    
+    
+    <span
+      class="half-h detail-mode"
+    >
+      0.5
+    </span>
+    
+  </div>
+</app-card>
+`;

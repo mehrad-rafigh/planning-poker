@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AppComponent should match the snaphshot 1`] = `
+<app-root>
+  <a
+    href="https://github.com/mehrad-rafigh/planning-poker"
+  >
+    <img
+      alt="Fork me on GitHub"
+      class="attachment-full size-full"
+      data-recalc-dims="1"
+      height="149"
+      src="https://github.blog/wp-content/uploads/2008/12/forkme_right_orange_ff7600.png?resize=149%2C149"
+      width="149"
+    />
+  </a><router-outlet /><app-cards>
+    <app-toolbar>
+      <nav
+        class="navbar d-flex row-no-wrap"
+      >
+        <span
+          class="navbar-title f-start"
+        >
+          Planning Poker
+        </span>
+      </nav>
+    </app-toolbar>
+    <div
+      class="cards-container"
+    >
+      
+    </div>
+  </app-cards>
+</app-root>
+`;

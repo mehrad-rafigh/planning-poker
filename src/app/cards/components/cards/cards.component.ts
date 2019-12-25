@@ -56,14 +56,14 @@ export class CardsComponent implements OnInit {
     return { backgroundColor, fontColor };
   }
 
-  private calculateRandomRGBColor(): string {
+  calculateRandomRGBColor(): string {
     const red = Math.ceil(Math.random() * 255);
     const green = Math.ceil(Math.random() * 255);
     const blue = Math.ceil(Math.random() * 255);
     return `rgb(${red},${green},${blue})`;
   }
 
-  private shouldFontBeWhite(backgroundColor: string): boolean {
+  shouldFontBeWhite(backgroundColor: string): boolean {
     const sp = backgroundColor
       .replace("rgb", "")
       .replace("(", "")

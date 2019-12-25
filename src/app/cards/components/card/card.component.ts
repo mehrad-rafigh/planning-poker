@@ -37,10 +37,4 @@ export class CardComponent implements OnInit {
       return "detail-mode";
     }
   }
-
-  setFontColor(): string {
-    if (this.cardColor.fontColor === "white") {
-      return "font-white";
-    }
-  }
 }
