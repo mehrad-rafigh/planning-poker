@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DetailComponent should match the snapshot 1`] = `
+<app-detail
+  card={[Function Object]}
+  router={[Function RouterSub]}
+  value={[Function String]}
+>
+  <app-toolbar>
+    <nav
+      class="navbar d-flex row-no-wrap"
+    >
+      <span
+        class="navbar-title f-start"
+      >
+        Planning Poker
+      </span>
+    </nav>
+  </app-toolbar><app-card>
+    <div
+      class="card font-white"
+      style="background-color: rgb(100, 100, 100);"
+    >
+      
+      
+      <span
+        class="half-h detail-mode"
+      >
+        0.5
+      </span>
+      
+    </div>
+  </app-card>
+</app-detail>
+`;

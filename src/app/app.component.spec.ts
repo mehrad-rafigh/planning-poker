@@ -1,33 +1,54 @@
-import { TestBed, async } from "@angular/core/testing";
+import { async, ComponentFixture, TestBed } from "@angular/core/testing";
 import { RouterTestingModule } from "@angular/router/testing";
 import { AppComponent } from "./app.component";
+import { routes } from "./app-routing.module";
+import { Router } from "@angular/router";
+import { CardsComponent } from "./cards/components/cards/cards.component";
+import { DetailComponent } from "./cards/components/detail/detail.component";
+import { CardComponent } from "./cards/components/card/card.component";
+import { ToolbarComponent } from "./toolbar/components/toolbar/toolbar.component";
+import { DebugElement } from "@angular/core";
+import { By } from "@angular/platform-browser";
 
 describe("AppComponent", () => {
+  let router: Router;
+  let component: AppComponent;
+  let fixture: ComponentFixture<AppComponent>;
+  let debugElement: DebugElement;
+
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      imports: [RouterTestingModule],
-      declarations: [AppComponent]
+      imports: [RouterTestingModule.withRoutes(routes)],
+      declarations: [
+        AppComponent,
+        CardsComponent,
+        DetailComponent,
+        CardComponent,
+        ToolbarComponent
+      ]
     }).compileComponents();
   }));
 
-  it("should create the app", () => {
-    const fixture = TestBed.createComponent(AppComponent);
-    const app = fixture.debugElement.componentInstance;
-    expect(app).toBeTruthy();
-  });
+  beforeEach(() => {
+    fixture = TestBed.createComponent(AppComponent);
+    component = fixture.componentInstance;
+    debugElement = fixture.debugElement;
+    router = TestBed.inject<Router>(Router);
 
-  it(`should have as title 'planning-poker'`, () => {
-    const fixture = TestBed.createComponent(AppComponent);
-    const app = fixture.debugElement.componentInstance;
-    expect(app.title).toEqual("planning-poker");
-  });
-
-  it("should render title in a h1 tag", () => {
-    const fixture = TestBed.createComponent(AppComponent);
+    router.initialNavigation();
     fixture.detectChanges();
-    const compiled = fixture.debugElement.nativeElement;
-    expect(compiled.querySelector("h1").textContent).toContain(
-      "Welcome to planning-poker!"
-    );
+  });
+
+  it("should create the app component", () => {
+    expect(component).toBeTruthy();
+  });
+
+  it("should match the snaphshot", () => {
+    expect(fixture).toMatchSnapshot();
+  });
+
+  it("should render planning poker cards container", () => {
+    const cards = debugElement.query(By.directive(CardsComponent));
+    expect(cards).toBeTruthy();
   });
 });

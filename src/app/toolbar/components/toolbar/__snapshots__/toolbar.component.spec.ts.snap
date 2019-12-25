@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ToolbarComponent should match the snapshot 1`] = `
+<app-toolbar>
+  <nav
+    class="navbar d-flex row-no-wrap"
+  >
+    <span
+      class="navbar-title f-start"
+    >
+      Planning Poker
+    </span>
+  </nav>
+</app-toolbar>
+`;

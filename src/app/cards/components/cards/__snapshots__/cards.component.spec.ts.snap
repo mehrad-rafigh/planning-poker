@@ -1,0 +1,345 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CardsComponent should match the snapshot 1`] = `
+<app-cards
+  calculateRandomRGBColor={[Function Function]}
+  range={[Function Array]}
+  router={[Function Router]}
+>
+  <app-toolbar>
+    <nav
+      class="navbar d-flex row-no-wrap"
+    >
+      <span
+        class="navbar-title f-start"
+      >
+        Planning Poker
+      </span>
+    </nav>
+  </app-toolbar><div
+    class="cards-container"
+  >
+    
+    <app-card>
+      <div
+        class="card font-white"
+        style="background-color: rgb(116, 254, 117);"
+      >
+        
+        <span
+          class="top-right quarter-h"
+        >
+          0
+        </span>
+        
+        
+        <span
+          class="bottom-left quarter-h"
+        >
+          0
+        </span>
+      </div>
+    </app-card>
+    <app-card>
+      <div
+        class="card font-white"
+        style="background-color: rgb(116, 254, 117);"
+      >
+        
+        <span
+          class="top-right quarter-h"
+        >
+          0.5
+        </span>
+        
+        
+        <span
+          class="bottom-left quarter-h"
+        >
+          0.5
+        </span>
+      </div>
+    </app-card>
+    <app-card>
+      <div
+        class="card font-white"
+        style="background-color: rgb(116, 254, 117);"
+      >
+        
+        <span
+          class="top-right quarter-h"
+        >
+          1
+        </span>
+        
+        
+        <span
+          class="bottom-left quarter-h"
+        >
+          1
+        </span>
+      </div>
+    </app-card>
+    <app-card>
+      <div
+        class="card font-white"
+        style="background-color: rgb(116, 254, 117);"
+      >
+        
+        <span
+          class="top-right quarter-h"
+        >
+          2
+        </span>
+        
+        
+        <span
+          class="bottom-left quarter-h"
+        >
+          2
+        </span>
+      </div>
+    </app-card>
+    <app-card>
+      <div
+        class="card font-white"
+        style="background-color: rgb(116, 254, 117);"
+      >
+        
+        <span
+          class="top-right quarter-h"
+        >
+          3
+        </span>
+        
+        
+        <span
+          class="bottom-left quarter-h"
+        >
+          3
+        </span>
+      </div>
+    </app-card>
+    <app-card>
+      <div
+        class="card font-white"
+        style="background-color: rgb(116, 254, 117);"
+      >
+        
+        <span
+          class="top-right quarter-h"
+        >
+          5
+        </span>
+        
+        
+        <span
+          class="bottom-left quarter-h"
+        >
+          5
+        </span>
+      </div>
+    </app-card>
+    <app-card>
+      <div
+        class="card font-white"
+        style="background-color: rgb(116, 254, 117);"
+      >
+        
+        <span
+          class="top-right quarter-h"
+        >
+          8
+        </span>
+        
+        
+        <span
+          class="bottom-left quarter-h"
+        >
+          8
+        </span>
+      </div>
+    </app-card>
+    <app-card>
+      <div
+        class="card font-white"
+        style="background-color: rgb(116, 254, 117);"
+      >
+        
+        <span
+          class="top-right quarter-h"
+        >
+          13
+        </span>
+        
+        
+        <span
+          class="bottom-left quarter-h"
+        >
+          13
+        </span>
+      </div>
+    </app-card>
+    <app-card>
+      <div
+        class="card font-white"
+        style="background-color: rgb(116, 254, 117);"
+      >
+        
+        <span
+          class="top-right quarter-h"
+        >
+          21
+        </span>
+        
+        
+        <span
+          class="bottom-left quarter-h"
+        >
+          21
+        </span>
+      </div>
+    </app-card>
+    <app-card>
+      <div
+        class="card font-white"
+        style="background-color: rgb(116, 254, 117);"
+      >
+        
+        <span
+          class="top-right quarter-h"
+        >
+          34
+        </span>
+        
+        
+        <span
+          class="bottom-left quarter-h"
+        >
+          34
+        </span>
+      </div>
+    </app-card>
+    <app-card>
+      <div
+        class="card font-white"
+        style="background-color: rgb(116, 254, 117);"
+      >
+        
+        <span
+          class="top-right quarter-h"
+        >
+          55
+        </span>
+        
+        
+        <span
+          class="bottom-left quarter-h"
+        >
+          55
+        </span>
+      </div>
+    </app-card>
+    <app-card>
+      <div
+        class="card font-white"
+        style="background-color: rgb(116, 254, 117);"
+      >
+        
+        <span
+          class="top-right quarter-h"
+        >
+          89
+        </span>
+        
+        
+        <span
+          class="bottom-left quarter-h"
+        >
+          89
+        </span>
+      </div>
+    </app-card>
+    <app-card>
+      <div
+        class="card font-white"
+        style="background-color: rgb(116, 254, 117);"
+      >
+        
+        <span
+          class="top-right quarter-h"
+        >
+          144
+        </span>
+        
+        
+        <span
+          class="bottom-left quarter-h"
+        >
+          144
+        </span>
+      </div>
+    </app-card>
+    <app-card>
+      <div
+        class="card font-white"
+        style="background-color: rgb(116, 254, 117);"
+      >
+        
+        <span
+          class="top-right quarter-h"
+        >
+          ?
+        </span>
+        
+        
+        <span
+          class="bottom-left quarter-h"
+        >
+          ?
+        </span>
+      </div>
+    </app-card>
+    <app-card>
+      <div
+        class="card font-white"
+        style="background-color: rgb(116, 254, 117);"
+      >
+        
+        <span
+          class="top-right quarter-h"
+        >
+          ☕
+        </span>
+        
+        
+        <span
+          class="bottom-left quarter-h"
+        >
+          ☕
+        </span>
+      </div>
+    </app-card>
+    <app-card>
+      <div
+        class="card font-white"
+        style="background-color: rgb(116, 254, 117);"
+      >
+        
+        <span
+          class="top-right quarter-h"
+        >
+          🃏
+        </span>
+        
+        
+        <span
+          class="bottom-left quarter-h"
+        >
+          🃏
+        </span>
+      </div>
+    </app-card>
+  </div>
+</app-cards>
+`;

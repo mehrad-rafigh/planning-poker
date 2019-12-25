@@ -15,6 +15,7 @@ import { Router } from "@angular/router";
 export class DetailComponent implements OnInit {
   @Input() value: string;
   @Input() card: { backgroundColor: string; fontColor: string };
+
   constructor(private router: Router) {
     const state = this.router.getCurrentNavigation().extras.state;
 
